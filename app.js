@@ -29,3 +29,13 @@ nameButtonElem.addEventListener('click', () => {
     // console.log('nameButtonElem');
     namePlaceElem.textContent = wordsUserTypes;
 });
+
+const yellowChange = document.getElementById('yellow');
+const redChange = document.getElementById('red');
+const blueChange = document.getElementById('blue');
+const greenChange = document.getElementById('green');
+
+// console.log(yellowChange);
+// console.log(redChange);
+// console.log(blueChange);
+// console.log(greenChange);
