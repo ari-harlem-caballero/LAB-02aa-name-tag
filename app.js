@@ -18,3 +18,7 @@
 const nameInputElem = document.getElementById('name-input');
 const nameButtonElem = document.getElementById('button-name');
 const namePlaceElem = document.getElementById('name-place');
+
+nameButtonElem.addEventListener('click', () => {
+
+});
