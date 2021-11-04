@@ -15,16 +15,17 @@
 // Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
 // Consider what features depend on what other features. Use this dependency logic to figure out what order to complete tasks.
 
-const nameInputElem = document.getElementById('name-input');
+const nameInputElem = document.getElementById('name-placeholder');
 const nameButtonElem = document.getElementById('button-name');
 const namePlaceElem = document.getElementById('name-place');
 
-// console.log('nameInputElem');
+// console.log(nameInputElem);
 // console.log('nameButtonElem');
 // console.log('namePlaceElem');
 
 nameButtonElem.addEventListener('click', () => {
     const wordsUserTypes = nameInputElem.value;
-
+    // console.log(wordsUserTypes);
+    // console.log('nameButtonElem');
     namePlaceElem.textContent = wordsUserTypes;
 });
