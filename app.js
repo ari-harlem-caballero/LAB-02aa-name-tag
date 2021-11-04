@@ -34,8 +34,27 @@ const yellowChange = document.getElementById('yellow');
 const redChange = document.getElementById('red');
 const blueChange = document.getElementById('blue');
 const greenChange = document.getElementById('green');
+const colorChange = document.getElementById('name-tag');
 
 // console.log(yellowChange);
 // console.log(redChange);
 // console.log(blueChange);
 // console.log(greenChange);
+// console.log(colorChange);
+
+yellowChange.addEventListener ('click', () => {
+    colorChange.style.background = "#ffd700";
+    // console.log(yellowChange);
+});
+
+redChange.addEventListener ('click', () => {
+    colorChange.style.background = "#ff0000";
+});
+
+blueChange.addEventListener ('click', () => {
+    colorChange.style.background = "#1e90ff";
+});
+
+greenChange.addEventListener ('click', () => {
+    colorChange.style.background = "#6b8e23";
+});
