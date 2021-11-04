@@ -69,4 +69,24 @@ h3 {
 #name-placeholder {
     text-align: center;
     margin: 20px 0 10px 0;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#button-name {
+    border-radius: 5px;
+    margin: 0;
+    text-align: center;
+    /* padding-top: 10px; */
+}
+
+.change-name, .color-change {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#yellow, #red, #green, #blue {
+    padding: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
+    border-radius: 5px;
 }
