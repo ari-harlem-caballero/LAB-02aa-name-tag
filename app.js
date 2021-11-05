@@ -45,6 +45,7 @@ const colorChange = document.getElementById('name-tag');
 yellowChange.addEventListener ('click', () => {
     colorChange.style.background = "#ffd700";
     // console.log(yellowChange);
+    
 });
 
 redChange.addEventListener ('click', () => {
