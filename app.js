@@ -19,14 +19,10 @@ const nameInputElem = document.getElementById('name-placeholder');
 const nameButtonElem = document.getElementById('button-name');
 const namePlaceElem = document.getElementById('name-place');
 
-// console.log(nameInputElem);
-// console.log('nameButtonElem');
-// console.log('namePlaceElem');
 
 nameButtonElem.addEventListener('click', () => {
     const wordsUserTypes = nameInputElem.value;
-    // console.log(wordsUserTypes);
-    // console.log('nameButtonElem');
+   
     namePlaceElem.textContent = wordsUserTypes;
 });
 
@@ -35,27 +31,25 @@ const redChange = document.getElementById('red');
 const blueChange = document.getElementById('blue');
 const greenChange = document.getElementById('green');
 const colorChange = document.getElementById('name-tag');
+const backgroundChange = document.getElementById('background');
 
-// console.log(yellowChange);
-// console.log(redChange);
-// console.log(blueChange);
-// console.log(greenChange);
-// console.log(colorChange);
 
 yellowChange.addEventListener ('click', () => {
     colorChange.style.background = "#ffd700";
-    // console.log(yellowChange);
-    
+    backgroundChange.style.background = "#ff0000"
 });
 
 redChange.addEventListener ('click', () => {
     colorChange.style.background = "#ff0000";
+    backgroundChange.style.background = "#ffd700"
 });
 
 blueChange.addEventListener ('click', () => {
     colorChange.style.background = "#1e90ff";
+    backgroundChange.style.background = "#6b8e23"
 });
 
 greenChange.addEventListener ('click', () => {
     colorChange.style.background = "#6b8e23";
+    backgroundChange.style.background = "#1e90ff"
 });
